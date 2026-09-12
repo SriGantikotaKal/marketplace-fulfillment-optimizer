@@ -1,0 +1,36 @@
+{
+  "orders": [
+    {
+      "order_id": "o-1",
+      "units": 4,
+      "sla_hours": 6,
+      "zone": "west"
+    },
+    {
+      "order_id": "o-2",
+      "units": 7,
+      "sla_hours": 5,
+      "zone": "west"
+    }
+  ],
+  "nodes": [
+    {
+      "node_id": "sd-1",
+      "available_units": 10,
+      "zone": "west",
+      "average_pick_pack_hours": 1.5,
+      "distance_hours_by_zone": {
+        "west": 2
+      }
+    },
+    {
+      "node_id": "az-1",
+      "available_units": 15,
+      "zone": "southwest",
+      "average_pick_pack_hours": 1.0,
+      "distance_hours_by_zone": {
+        "west": 4
+      }
+    }
+  ]
+}
